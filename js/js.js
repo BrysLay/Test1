@@ -24,7 +24,7 @@ function format(d) {
  
 $(document).ready(function () {
     var table = $('#example').DataTable({
-        ajax: 'objects.txt',
+        ajax: '/ajax/data/objects.txt',
         columns: [
             {
                 className: 'dt-control',
